@@ -3,9 +3,6 @@ Bordertale 3D
 =============
 
 
-.. image:: https://img.shields.io/pypi/v/bordertale_3d.svg
-        :target: https://pypi.python.org/pypi/bordertale_3d
-
 .. image:: https://img.shields.io/travis/appcreatorguy/bordertale_3d.svg
         :target: https://travis-ci.com/appcreatorguy/bordertale_3d
 
