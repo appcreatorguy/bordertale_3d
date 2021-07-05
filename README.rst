@@ -3,7 +3,7 @@ Bordertale 3D
 =============
 
 
-.. image:: https://img.shields.io/travis/appcreatorguy/bordertale_3d.svg
+.. image:: https://img.shields.io/travis/com/appcreatorguy/bordertale_3d
         :target: https://travis-ci.com/appcreatorguy/bordertale_3d
 
 .. image:: https://readthedocs.org/projects/bordertale-3d/badge/?version=latest
