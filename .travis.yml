@@ -14,7 +14,9 @@ install:
     - pre-commit run --all-files
 
 # Command to run tests, e.g. python setup.py test
-script: tox
+script: python setup.py test
+    pytest
+# tox
 
 cache:
     - pip
