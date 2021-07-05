@@ -5,9 +5,6 @@
 import pytest
 
 
-from bordertale_3d import bordertale_3d
-
-
 @pytest.fixture
 def response():
     """Sample pytest fixture.
