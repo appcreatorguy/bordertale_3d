@@ -8,7 +8,8 @@ python:
 
 # Command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
 install:
-    - pip install -U tox-travis, pre-commit
+    - pip install -U tox-travis
+    - pip install -U pre-commit
     - pre-commit run --from-ref origin/HEAD --to-ref HEAD
 
 # Command to run tests, e.g. python setup.py test
