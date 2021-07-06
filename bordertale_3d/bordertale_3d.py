@@ -2,10 +2,11 @@
 import sys
 
 import pygame
-from pygame.constants import K_ESCAPE
+from pygame.constants import K_ESCAPE, KEYDOWN
 
 
 def main():
+    """Main Function."""
     pygame.init()
     pygame.display.set_caption("Bordertale 3D")
     screen = pygame.display.set_mode((900, 900), 0, 32)
