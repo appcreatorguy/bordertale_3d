@@ -2,7 +2,7 @@
 import sys
 
 import pygame
-from pygame.constants import K_ESCAPE
+from pygame.constants import K_ESCAPE, KEYDOWN
 
 
 def main():
