@@ -11,8 +11,8 @@ Bordertale 3D
         :alt: Documentation Status
 
 
-.. image:: https://pyup.io/repos/github/appcreatorguy/bordertale_3d/shield.svg
-     :target: https://pyup.io/repos/github/appcreatorguy/bordertale_3d/
+.. image::  https://flat.badgen.net/dependabot/appcreatorguy/bordertale_3d?icon=dependabot
+     :target: https://dependabot.com
      :alt: Updates
 
 
