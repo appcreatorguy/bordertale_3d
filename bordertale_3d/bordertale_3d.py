@@ -12,6 +12,9 @@ def main():
     screen = pygame.display.set_mode((600, 600), 0, 32)
     display = pygame.Surface((300, 300))
 
+    grass_img = pygame.image.load("resources/grass.png").convert()
+    grass_img.set_colorkey((0, 0, 0))
+
     with open("data/map.txt") as f:
         map_data = [[int(c) for c in row] for row in f.read().split("\n")]
     f.close()  # * Read Binary Map File
@@ -24,6 +27,9 @@ def main():
                 if tile:
                     pygame.draw.rect(
                         display, (255, 255, 255), pygame.Rect(x * 10, y * 10, 10, 10), 1
+                    )
+                    display.blit(
+                        grass_img, (150 + x * 16 - y * 16, 100 + x * 8 + y * 8)
                     )
 
         for event in pygame.event.get():
