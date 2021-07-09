@@ -87,4 +87,4 @@ install: clean ## install the package to the active Python's site-packages
 	python setup.py install
 
 run:
-	python3 bordertale_3d/cli.py
+	python bordertale_3d/cli.py
