@@ -6,11 +6,16 @@ from pygame.constants import K_ESCAPE, KEYDOWN
 
 
 def main():
-    """Main Function."""
+    """Run the main function of the game."""
     pygame.init()
     pygame.display.set_caption("Bordertale 3D")
     screen = pygame.display.set_mode((900, 900), 0, 32)
     display = pygame.Surface((300, 300))
+
+    with open("map.txt") as f:
+        map_data = [
+            [int(c) for c in row] for row in f.read().split("\n")
+        ]  # Read Binary Map File
 
     while True:
         display.fill((0, 0, 0))
