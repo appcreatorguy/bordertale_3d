@@ -64,7 +64,7 @@ sphinxcontrib-websupport==1.2.4
 toml==0.10.2
 tox==3.14.0
 tqdm==4.61.1
-twine==1.14.0
+twine==3.4.1
 typing-extensions==3.10.0.0
 urllib3==1.26.6
 virtualenv==20.4.7
