@@ -29,7 +29,15 @@ def main():
                         display, (255, 255, 255), pygame.Rect(x * 10, y * 10, 10, 10), 1
                     )
                     display.blit(
-                        grass_img, (150 + x * 16 - y * 16, 100 + x * 8 + y * 8)
+                        grass_img,
+                        (
+                            150
+                            + x * (grass_img.get_width() / 2)
+                            - y * (grass_img.get_width() / 2),
+                            100
+                            + x * (grass_img.get_width() / 4)
+                            + y * (grass_img.get_width() / 4),
+                        ),
                     )
 
         for event in pygame.event.get():
