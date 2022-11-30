@@ -39,7 +39,7 @@ pathspec==0.8.1
 pathtools==0.1.2
 pip-api==0.0.20
 pipreqs==0.4.10
-pkginfo==1.7.0
+pkginfo==1.9.2
 pluggy==0.13.1
 pre-commit==2.13.0
 py==1.10.0
